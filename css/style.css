@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p{
+    color: #40514E;
+    line-height: 2;
+}
+hr{
+    border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: #aecdcd;
+  width: 5%;
+}
+a{
+    color: #11999E; 
+}
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud{
+     position: absolute;  
+     right: 300px;
+     top: 50px; 
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 250px;
+}
+.montain{
+    width: 30%;
+}
+.magic{
+    border-style: none;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+.magic:hover{
+    border-width: 3px;
+    border-image-slice: 1;
+    transition: all 0.3s ease-in-out;
+    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+}
+.profile{
+    margin: 50px auto;
+}
+
+.skill-row{
+    display: inline-block;
+    width: 50%;
+    margin: 80px auto;
+    text-align: left;
+}
+.my-pc{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.my-globe{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.contact-me{
+    margin-bottom: 100px;
+}
+.contact-para{
+    margin: 40px auto 60px;
+}
+.btn{
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-image: linear-gradient(#11cdd4,#11999e);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #EAF6F6;
+}
+.btn:hover{
+    background-image: linear-gradient(#30e3cb,#2bc4ad);
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    
+}
+.footer-link{
+   text-decoration: none;
+   margin: 0 15px;
+   font-family: 'Montserrat', sans-serif;
+}
+.footer-link:hover{
+    color: #EAF6F6;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
